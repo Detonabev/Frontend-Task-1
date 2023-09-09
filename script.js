@@ -31,8 +31,8 @@ switch (name){
 
 
 day.innerHTML = name;
-time.innerHTML = d.toLocaleTimeString();
-// setInterval(()=>{
-    
 
-// },1000)
+setInterval(()=>{
+    time.innerHTML = d.toLocaleTimeString();
+
+},1000)
